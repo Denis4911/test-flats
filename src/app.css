@@ -1,0 +1,50 @@
+@import "assets/css/normalize.css";
+
+@font-face {
+    font-family: "Gotham Pro";
+    src: url("~@/assets/fonts/GothamPro.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Gotham Pro";
+    src: url("~@/assets/fonts/GothamPro-Medium.ttf");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Gotham Pro";
+    src: url("~@/assets/fonts/GothamPro-Bold.ttf");
+    font-weight: 900;
+    font-style: normal;
+}
+
+body {
+    font-family: "Gotham Pro";
+    font-weight: 300;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+::selection {
+    background: #70D24E;
+    color: #fff;
+}
+::-moz-selection {
+    background: #70D24E;
+    color: #fff;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
